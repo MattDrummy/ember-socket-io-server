@@ -1,0 +1,25 @@
+{
+  "name": "ember-socket-io-server",
+  "version": "1.0.0",
+  "description": "a server to host socket.io because websockets doesn't allow for namespaces...",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattDrummy/ember-socket-io-server.git"
+  },
+  "author": "Matthew Drumheller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MattDrummy/ember-socket-io-server/issues"
+  },
+  "homepage": "https://github.com/MattDrummy/ember-socket-io-server#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "http": "0.0.0",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.3"
+  }
+}
